@@ -1,0 +1,36 @@
+{
+  "name": "mvc_infra_node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "infraapp.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon"
+  },
+  "author": "Srija",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "csv-parser": "^3.0.0",
+    "dotenv": "^10.0.0",
+    "exceljs": "^4.3.0",
+    "express": "^4.17.1",
+    "express-useragent": "^1.0.15",
+    "fast-csv": "^4.3.6",
+    "fs-extra": "^10.0.1",
+    "handlebars": "^4.7.7",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.29.3",
+    "multiparty": "^4.2.3",
+    "mysql": "^2.18.1",
+    "nodemailer": "^6.7.5",
+    "nodemon": "^2.0.15",
+    "puppeteer": "^13.5.1",
+    "useragent": "^2.3.0",
+    "xlsx": "^0.18.5"
+  }
+}
